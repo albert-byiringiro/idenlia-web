@@ -18,8 +18,9 @@ function RootComponent() {
           About
         </Link>
       </div>
-      <hr />
-      <Outlet />
+      <div className='h-screen w-screen overflow-hidden'>
+        <Outlet />
+      </div>
       <TanStackRouterDevtools />
     </>
   )
