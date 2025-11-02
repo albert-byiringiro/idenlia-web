@@ -1,8 +1,10 @@
+import { Button } from "@/components/ui/button"
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1 className="text-4xl">Welcome home</h1>
+    <div className="flex min-h-svh flex-col items-center justify-center">
+      <h1 className="text-4xl">Hello World</h1>
+      <Button className="bg-amber-100">Click me</Button>
     </div>
   )
 }
